@@ -2,9 +2,14 @@
 dataset/
 *.csv
 
+#ignore SQLite database file
+*.db
+
 # Ignore Python cache
 __pycache__/
 *.pyc
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
+
+
